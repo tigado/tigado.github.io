@@ -1,0 +1,132 @@
+@media only screen and (max-width: 600px) {
+    .card-body{
+        padding: 10px !important;
+    }
+
+    .content-page{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .modal-body .btn-primary{
+        width: 100% !important;
+    }
+
+    /* Page Title */
+    .page-title-box .page-title {
+        font-size: 16px !important;
+    }
+    
+    /* Header */
+    #small__screen__header__btns {
+        display: block;
+    }
+    #big__screen__header__btns {
+        display: none;
+    }
+    #small__screen__header__btns button {
+        background-color: #727cf5 !important;
+        border-color: #727cf5 !important;
+        color: white !important;
+    }
+    #small__screen__header__btns .dropdown-item {
+        padding: .375rem 1.0rem !important;
+    }
+
+    /* Settings */
+    .settings__table tr th,
+    .settings__table tr td {
+        padding: 8px;
+        font-size: 14px !important;
+    }
+    .settings__table tr:nth-child(2) th {
+        min-width: 220px !important;
+    }
+    .settings__table thead tr th {
+        min-width: 100px !important;
+    }
+    .settings__table input {
+        height: 12px !important;
+    }
+
+    /* Responsive Datatables */
+    .table.dataTable>tbody>tr.child ul.dtr-details>li{
+        white-space: pre-line;
+    }
+
+    /* Leads Table */
+    #leads__table .custom__table tr:first-child th:first-child{
+        width: 150px !important;
+    }
+    
+    #leads__table .custom__table tr:first-child th:nth-child(2){
+        width: 42%;
+    }
+    
+    #leads__table .custom__table tr:first-child th:nth-child(3){
+        width: 20%;
+    }
+    
+    #leads__table .custom__table tr:first-child th:nth-child(4){
+        width: 30%;
+    }
+
+    /* Meetings */
+    #meeting__detail .custom__table tr:first-child th{
+        min-width: 200px !important;
+    }
+
+    /* ============================================ */
+    /* Jobs Module */
+    /* ============================================ */
+    #jobs__content__list__mobile{
+        display: block !important;
+    }
+
+    #jobs__content__list__mobile a,
+    #jobs__content__list__mobile a:hover{
+        color: #7F767E !important;
+    }
+
+    #jobs__content__list__desktop{
+        display: none !important;
+    }
+
+    .job__items .job__item:not(:last-child){
+        border-bottom: 1px solid #f7f7f7;
+    }
+
+    #jobs__table thead tr th:first-child{
+        min-width: 80px !important;
+    }
+
+    #jobs__table thead tr th{
+        min-width: 150px !important
+    }
+
+    #jobs__table thead tr th:nth-child(5){
+        min-width: 200px !important;
+    }
+
+    #job__detail__section{
+        padding: 0px !important;
+    }
+
+    .job__visits__table thead tr th{
+        width: 120px !important;
+        max-width: 120px !important;
+        min-width: 120px !important;
+    }
+
+    .job__visits__table thead tr th:nth-child(6){
+        min-width: 250px !important;
+    }
+
+    #job__schedule__table__mobile{
+        display: block !important;
+    }
+
+    #job__schedule__table{
+        display: none !important;
+    }
+}

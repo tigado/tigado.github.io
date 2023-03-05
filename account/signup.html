@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Tigado Management System</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+        <meta content="Coderthemes" name="author" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="https://tigado4.herokuapp.com/static/images/favicon.ico">
+        <!-- App css -->
+        <link href="../static/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="../static/css/app.min.css" rel="stylesheet" type="text/css" id="app-style"/>
+        <link href="../static/css/style.css" rel="stylesheet" type="text/css" id="app-style"/>
+
+    </head>
+
+    <body class="loading authentication-bg" data-layout-config='{"darkMode":false}'>
+
+        <div class="account-pages pt-2 pt-sm-5 pb-4 pb-sm-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-5">
+                        <div class="card">
+                            <!-- Logo-->
+                            <div class="card-header pt-4 pb-4 text-center bg-primary">
+                                <a href="https://tigado4.herokuapp.com/account/index.html">
+                                    <span><img src="../static/images/tigado-logo.png" alt="" width="100%" height="18px" /></span>
+                                </a>
+                            </div>
+
+                            <div class="card-body p-4">
+                                
+                                <div class="text-center w-75 m-auto">
+                                    <h4 class="text-dark-50 text-center mt-0 fw-bold">Free Sign Up</h4>
+                                    <p class="text-muted mb-4">Don't have an account? Create your account, it takes less than a minute </p>
+                                </div>
+                                
+                                <form method="POST">
+                                    <input type="hidden" name="csrfmiddlewaretoken" value="vHe0Nh7JywR8GViwhlQaujFn9Bl09cO7Q16Pic3QAwlUyl1rpbh29faoRqFy67ia"> 
+
+<div id="div_id_first_name" class="mb-3"> <label for="id_first_name" class="form-label requiredField">
+                First name<span class="asteriskField">*</span> </label> <input type="text" name="first_name" placeholder="First Name" maxlength="255" class="textinput textInput form-control" required id="id_first_name"> </div> <div id="div_id_last_name" class="mb-3"> <label for="id_last_name" class="form-label requiredField">
+                Last name<span class="asteriskField">*</span> </label> <input type="text" name="last_name" placeholder="Last Name" maxlength="255" class="textinput textInput form-control" required id="id_last_name"> </div> <div id="div_id_email" class="mb-3"> <label for="id_email" class="form-label requiredField">
+                Email<span class="asteriskField">*</span> </label> <input type="text" name="email" placeholder="Email" maxlength="255" autofocus class="textinput textInput form-control" required id="id_email"> </div> <div id="div_id_password1" class="mb-3"> <label for="id_password1" class="form-label requiredField">
+                Password<span class="asteriskField">*</span> </label> <input type="password" name="password1" autocomplete="new-password" placeholder="Password" class="textinput textInput form-control" required id="id_password1"> <small id="hint_id_password1" class="form-text text-muted"><ul><li>Your password can’t be too similar to your other personal information.</li><li>Your password must contain at least 8 characters.</li><li>Your password can’t be a commonly used password.</li><li>Your password can’t be entirely numeric.</li></ul></small> </div> <div id="div_id_password2" class="mb-3"> <label for="id_password2" class="form-label requiredField">
+                Password confirmation<span class="asteriskField">*</span> </label> <input type="password" name="password2" autocomplete="new-password" placeholder="Confirm Password" class="textinput textInput form-control" required id="id_password2"> <small id="hint_id_password2" class="form-text text-muted">Enter the same password as before, for verification.</small> </div> <div id="div_id_type" class="mb-3"> <label for="id_type" class="form-label requiredField">
+                Type<span class="asteriskField">*</span> </label> <select name="type" class="select form-select" required id="id_type"> <option value="" selected>---------</option> <option value="Admin">Admin</option> <option value="Company">Company</option> <option value="Employee">Employee</option>
+
+</select> </div>
+
+                                    <div class="text-center mt-3">
+                                        <button type="submit" class="btn btn-primary w-100">Sign up</button>
+                                    </div>
+                                </form>
+                            </div> <!-- end card-body -->
+                        </div>
+                        <!-- end card -->
+
+                        <div class="row mt-3">
+                            <div class="col-12 text-center">
+                                <p class="text-muted">Already have account? <a href="signin.html" class="text-muted ms-1"><b>Log In</b></a></p>
+                            </div> <!-- end col-->
+                        </div>
+                        <!-- end row -->
+
+                    </div> <!-- end col -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end page -->
+
+        <footer class="footer footer-alt">
+            2022 - <span id="currentYear"></span> © Tigado - Developed by Shaheryar Yousaf
+        </footer>
+
+        <!-- bundle -->
+        <script src="../static/js/vendor.min.js"></script>
+        <script src="../static/js/app.min.js"></script>
+        <script>
+            document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,261 @@
+/* line 16, _tigado/static/css/style.scss */
+.ck-editor__editable {
+  min-height: 150px; }
+
+/* line 25, _tigado/static/css/style.scss */
+.btn {
+  box-shadow: none !important;
+  border-radius: 7px !important;
+  cursor: pointer !important; }
+  /* line 32, _tigado/static/css/style.scss */
+  .btn:focus {
+    background-color: #dfc569;
+    border-color: #dfc569; }
+  /* line 38, _tigado/static/css/style.scss */
+  .btn.btn_active {
+    background-color: #dfc569;
+    border-color: #dfc569; }
+  /* line 44, _tigado/static/css/style.scss */
+  .btn.btn-purple {
+    background-color: purple !important;
+    border-color: purple !important; }
+  /* line 50, _tigado/static/css/style.scss */
+  .btn .sub__btn__active {
+    background-color: activeTopBtn !important;
+    border-color: activeTopBtn !important;
+    color: white !important; }
+  /* line 57, _tigado/static/css/style.scss */
+  .btn.c-green {
+    background-color: green !important;
+    border-color: green !important; }
+
+/* ============================================ */
+/* Tabgle Scroll Bar */
+/* ============================================ */
+/* width */
+/* line 68, _tigado/static/css/style.scss */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px; }
+
+/* Track */
+/* line 74, _tigado/static/css/style.scss */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; }
+
+/* Handle */
+/* line 79, _tigado/static/css/style.scss */
+::-webkit-scrollbar-thumb {
+  background: #434343; }
+
+/* Handle on hover */
+/* line 84, _tigado/static/css/style.scss */
+::-webkit-scrollbar-thumb:hover {
+  background: #434343; }
+
+/* line 154, _tigado/static/css/style.scss */
+.table {
+  color: #3d3d3d !important;
+  background-color: white !important; }
+  /* line 157, _tigado/static/css/style.scss */
+  .table th {
+    font-weight: 500 !important;
+    color: #6c757d; }
+  /* line 162, _tigado/static/css/style.scss */
+  .table.table-bordered {
+    border: 1px solid #f2f2f2 !important; }
+    /* line 165, _tigado/static/css/style.scss */
+    .table.table-bordered tr th, .table.table-bordered tr td {
+      border: 1px solid #f2f2f2 !important; }
+  /* line 172, _tigado/static/css/style.scss */
+  .table.custom__table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #f2f2f2; }
+    /* line 177, _tigado/static/css/style.scss */
+    .table.custom__table th,
+    .table.custom__table tr,
+    .table.custom__table td {
+      padding: 10px !important; }
+    /* line 182, _tigado/static/css/style.scss */
+    .table.custom__table a, .table.custom__tablea:hover {
+      color: #3d3d3d !important; }
+    /* line 187, _tigado/static/css/style.scss */
+    .table.custom__table tr th {
+      background-color: #f9f9f9 !important;
+      color: #3d3d3d !important; }
+    /* line 191, _tigado/static/css/style.scss */
+    .table.custom__table tr:hover {
+      background-color: #f5f5f52e !important;
+      cursor: pointer; }
+  /* line 199, _tigado/static/css/style.scss */
+  .table.settings__table {
+    margin-bottom: 0px !important; }
+    /* line 203, _tigado/static/css/style.scss */
+    .table.settings__table thead tr th {
+      min-width: 100px !important; }
+    /* line 208, _tigado/static/css/style.scss */
+    .table.settings__table tr {
+      border-color: #f2f2f2 !important; }
+      /* line 210, _tigado/static/css/style.scss */
+      .table.settings__table tr th, .table.settings__table tr td {
+        text-align: center !important;
+        border-color: #f2f2f2 !important; }
+      /* line 215, _tigado/static/css/style.scss */
+      .table.settings__table tr th:first-child {
+        text-align: left !important; }
+      /* line 219, _tigado/static/css/style.scss */
+      .table.settings__table tr:nth-child(2) th {
+        min-width: 220px !important; }
+  /* line 228, _tigado/static/css/style.scss */
+  .table.goal_template_table thead tr th {
+    width: 12.5% !important; }
+  /* line 238, _tigado/static/css/style.scss */
+  .table.meetings_table thead tr th {
+    min-width: 150px !important; }
+  /* line 248, _tigado/static/css/style.scss */
+  .table.exams_table thead tr th {
+    width: 16.7% !important; }
+
+/* line 261, _tigado/static/css/style.scss */
+#jobWeeklyStatsCalendar thead tr th,
+#jobWeeklyStatsCalendar tbody tr td {
+  text-align: center !important; }
+
+/* line 268, _tigado/static/css/style.scss */
+#jobsCalendarTable .jobCalendarBadge {
+  padding: 6px 12px !important;
+  background-color: #f7f7f7 !important;
+  border-color: #f7f7f7 !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  color: #6c757d !important;
+  border-radius: 5px !important; }
+
+/* line 277, _tigado/static/css/style.scss */
+#jobsCalendarTable thead tr th,
+#jobsCalendarTable tbody tr td {
+  text-align: center !important; }
+
+/* line 287, _tigado/static/css/style.scss */
+#reports__table .duration {
+  background-color: #f3f3f3;
+  font-size: 12px;
+  padding: 3px 6px;
+  border-radius: 50px;
+  color: #000000; }
+
+/* line 294, _tigado/static/css/style.scss */
+#reports__table .uil {
+  font-size: 20px; }
+
+/* line 297, _tigado/static/css/style.scss */
+#reports__table .report__data small {
+  font-size: 11px;
+  color: gray; }
+
+/* line 301, _tigado/static/css/style.scss */
+#reports__table .report__data p {
+  margin-bottom: -5px !important; }
+
+/* line 311, _tigado/static/css/style.scss */
+#customerFeedbackPortal .btn {
+  background-color: #727cf5 !important;
+  border-color: #727cf5 !important; }
+  /* line 315, _tigado/static/css/style.scss */
+  #customerFeedbackPortal .btn:hover {
+    background-color: #727cf5 !important;
+    border-color: #727cf5 !important; }
+
+/* line 321, _tigado/static/css/style.scss */
+#customerFeedbackPortal .col-md-2 .btn {
+  font-weight: 500; }
+
+/* line 324, _tigado/static/css/style.scss */
+#customerFeedbackPortal .col-md-2 ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 30px; }
+  /* line 328, _tigado/static/css/style.scss */
+  #customerFeedbackPortal .col-md-2 ul li {
+    margin-bottom: 10px; }
+    /* line 330, _tigado/static/css/style.scss */
+    #customerFeedbackPortal .col-md-2 ul li a {
+      color: #495057;
+      text-decoration: none; }
+
+/* line 336, _tigado/static/css/style.scss */
+#customerFeedbackPortal .col-md-2 .header-title {
+  font-weight: 600 !important; }
+
+/* line 339, _tigado/static/css/style.scss */
+#customerFeedbackPortal .col-md-2 #participants {
+  margin-bottom: 0px !important; }
+
+/* line 344, _tigado/static/css/style.scss */
+#customerFeedbackPortal .feedbacksList .btn-sm {
+  border-radius: 50px !important;
+  font-size: 12px !important;
+  font-weight: 500; }
+
+/* line 356, _tigado/static/css/style.scss */
+.vendors__brands select {
+  min-height: 45px; }
+
+/* line 359, _tigado/static/css/style.scss */
+.vendors__brands button {
+  min-height: 45px; }
+
+/* line 363, _tigado/static/css/style.scss */
+.vendors__brands h4 a {
+  color: #6c757d; }
+  /* line 365, _tigado/static/css/style.scss */
+  .vendors__brands h4 a:hover {
+    color: #6c757d; }
+
+/* line 375, _tigado/static/css/style.scss */
+#dispatchMap1 .card-body {
+  padding: 0; }
+
+/* line 378, _tigado/static/css/style.scss */
+#map {
+  min-height: 700px !important; }
+
+/* line 382, _tigado/static/css/style.scss */
+#mapInfo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+  max-width: 200px !important;
+  min-width: 200px !important; }
+  /* line 391, _tigado/static/css/style.scss */
+  #mapInfo h4 {
+    padding: 15px;
+    border-bottom: 1px solid #c8c8c8; }
+  /* line 396, _tigado/static/css/style.scss */
+  #mapInfo ul li {
+    padding-left: 15px !important;
+    font-size: 13px !important;
+    font-weight: 500; }
+    /* line 400, _tigado/static/css/style.scss */
+    #mapInfo ul li:hover {
+      cursor: pointer !important;
+      background-color: #f7f7f7 !important; }
+
+/* line 408, _tigado/static/css/style.scss */
+.map_icons {
+  height: 20px !important;
+  width: 20px !important;
+  margin-right: 10px !important; }
+
+/* line 414, _tigado/static/css/style.scss */
+.mapInfoBox {
+  padding: 5px; }
+  /* line 416, _tigado/static/css/style.scss */
+  .mapInfoBox h5,
+  .mapInfoBox p b {
+    color: black !important; }
